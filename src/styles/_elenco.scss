@@ -1,0 +1,41 @@
+.elenco {
+    padding: 5.6vw;
+    text-align: center;
+    color: #fff;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+
+        &__atores {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 64px;
+            
+            
+
+            img {
+                display: block;
+                border-radius: 15px;
+
+                &:hover {
+                    transform: scale(1.1);
+                    box-shadow: #fff 3px 3px 10px;
+                }
+            }
+
+
+        }
+    }
+
+    h2 {
+        margin-bottom: 24px;
+        font-style: italic;
+    }
+    
+    p {
+        margin-top: 24px;
+    }
+
+}

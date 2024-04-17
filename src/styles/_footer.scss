@@ -1,0 +1,10 @@
+@use 'variaveis';
+
+.footer {
+    background-color: variaveis.$corDaNav;
+    color: #fff;
+
+    p {
+        padding-left: 10px;
+    }
+}
